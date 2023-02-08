@@ -10,23 +10,8 @@
 // TIPOGRAFÍA
 @import 'base/typography';
 
-// *******
 // COMPONENTS
-@import 'components/buttons';
-@import 'components/banner';
-
-// LAYOUTS
-@import 'layout/header';
-@import 'layout/navigator';
-@import 'layout/footer';
-@import 'layout/forms';
-@import 'layout/grid';
-@import 'layout/sidebar';
+@import 'components/tarjetaColores';
 
 // PAGES
 @import 'pages/home';
-@import 'pages/contact';
-
-// THEMEs
-@import 'themes/dark';
-@import 'themes/light';
