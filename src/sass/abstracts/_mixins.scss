@@ -1,3 +1,33 @@
 /* ********* */
 /* @MIXINS */
 /* ********* */
+
+@each $color, $fondoPolaroid in $colors {
+    .polaroid{
+        width: 300px;
+        height: 400px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        
+        border: 12px solid $colorCarta;
+        border-bottom: 0px;
+        
+        //fondo
+        &--#{$color}{
+            background-color: $fondoPolaroid;
+        }
+
+            .texto{
+                font-weight: 900;
+                letter-spacing: 2px;
+                background-color: $colorCarta;
+                padding: 20px;
+
+                &::before{
+                    content: "#{$fondoPolaroid}";
+                }
+            }
+    }
+}

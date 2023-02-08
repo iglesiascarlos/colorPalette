@@ -317,19 +317,238 @@ template {
 /* ********* */
 /* @RESET */
 /* ********* */
+*, figcaption, h1 {
+  font-family: "Futura ND Medium";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: grey;
+  margin: 0;
+  padding: 0;
+}
+
 /* ********* */
 /* @VARIABLES */
 /* ********* */
 /* ********* */
 /* @MIXINS */
 /* ********* */
+.polaroid {
+  width: 300px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  border: 12px solid #fff;
+  border-bottom: 0px;
+}
+.polaroid--color1 {
+  background-color: #B6E4EB;
+}
+.polaroid .texto {
+  font-weight: 900;
+  letter-spacing: 2px;
+  background-color: #fff;
+  padding: 20px;
+}
+.polaroid .texto::before {
+  content: "#B6E4EB";
+}
+
+.polaroid {
+  width: 300px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  border: 12px solid #fff;
+  border-bottom: 0px;
+}
+.polaroid--color2 {
+  background-color: #D9F1F2;
+}
+.polaroid .texto {
+  font-weight: 900;
+  letter-spacing: 2px;
+  background-color: #fff;
+  padding: 20px;
+}
+.polaroid .texto::before {
+  content: "#D9F1F2";
+}
+
+.polaroid {
+  width: 300px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  border: 12px solid #fff;
+  border-bottom: 0px;
+}
+.polaroid--color3 {
+  background-color: #FBDEE2;
+}
+.polaroid .texto {
+  font-weight: 900;
+  letter-spacing: 2px;
+  background-color: #fff;
+  padding: 20px;
+}
+.polaroid .texto::before {
+  content: "#FBDEE2";
+}
+
+.polaroid {
+  width: 300px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  border: 12px solid #fff;
+  border-bottom: 0px;
+}
+.polaroid--color4 {
+  background-color: #FEAFAB;
+}
+.polaroid .texto {
+  font-weight: 900;
+  letter-spacing: 2px;
+  background-color: #fff;
+  padding: 20px;
+}
+.polaroid .texto::before {
+  content: "#FEAFAB";
+}
+
+.polaroid {
+  width: 300px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  border: 12px solid #fff;
+  border-bottom: 0px;
+}
+.polaroid--color5 {
+  background-color: #FBD5B0;
+}
+.polaroid .texto {
+  font-weight: 900;
+  letter-spacing: 2px;
+  background-color: #fff;
+  padding: 20px;
+}
+.polaroid .texto::before {
+  content: "#FBD5B0";
+}
+
+.polaroid {
+  width: 300px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  border: 12px solid #fff;
+  border-bottom: 0px;
+}
+.polaroid--color6 {
+  background-color: #FCF1D7;
+}
+.polaroid .texto {
+  font-weight: 900;
+  letter-spacing: 2px;
+  background-color: #fff;
+  padding: 20px;
+}
+.polaroid .texto::before {
+  content: "#FCF1D7";
+}
+
 /* ********* */
 /* @TYPOGRAPHY */
 /* ********* */
+@font-face {
+  font-family: "Futura ND Medium";
+  src: url(../../../public/assets/font/Futura\ ND\ Medium.woff2) format("woff2");
+}
 /* ********* */
 /* @TARJETAS */
 /* ********* */
+.main-container {
+  background-color: #f3e5cb;
+  text-align: center;
+  padding-top: 20px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-container h1 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.main-container .colors {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 70px 1fr 70px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+}
+
 /* ********* */
 /* @HOME */
 /* ********* */
+body {
+  min-height: 100vh;
+  background-color: #f3e5cb;
+}
 /*# sourceMappingURL=main.css.map */

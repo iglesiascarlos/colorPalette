@@ -1,3 +1,25 @@
 /* ********* */
 /* @TARJETAS */
 /* ********* */
+
+.main-container{
+    background-color: $colorFondo;
+    text-align: center;
+    padding-top: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .colors{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 70px;
+        // row-gap: 100px;
+    }
+}
